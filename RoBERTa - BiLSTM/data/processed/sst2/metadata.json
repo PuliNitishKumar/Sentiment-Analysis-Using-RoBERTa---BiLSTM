@@ -1,0 +1,25 @@
+{
+  "dataset": "Stanford SST-2",
+  "total_samples": 67455,
+  "train_samples": 66584,
+  "test_samples": 871,
+  "num_classes": 2,
+  "label_mapping": {
+    "0": "negative",
+    "1": "positive"
+  },
+  "classes": [
+    "negative",
+    "positive"
+  ],
+  "train_distribution": {
+    "positive": 37192,
+    "negative": 29392
+  },
+  "test_distribution": {
+    "positive": 444,
+    "negative": 427
+  },
+  "optimization": "frozen_layers",
+  "description": "Binary sentiment classification (positive/negative)"
+}

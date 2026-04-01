@@ -1,0 +1,27 @@
+{
+  "dataset": "Twitter US Airline Sentiment",
+  "total_samples": 14299,
+  "train_samples": 11439,
+  "test_samples": 2860,
+  "num_classes": 3,
+  "label_mapping": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "classes": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "train_distribution": {
+    "negative": 7309,
+    "neutral": 2366,
+    "positive": 1764
+  },
+  "test_distribution": {
+    "negative": 1828,
+    "neutral": 591,
+    "positive": 441
+  }
+}
